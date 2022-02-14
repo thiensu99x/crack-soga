@@ -19,7 +19,14 @@ Phiên bản này là phiên bản crack bẩn, các bạn tự học cách sử
 
 ## Cài đặt 
 ```
+apt-get update
+apt-get install curl -y
+
 bash <(curl -Ls https://raw.githubusercontent.com/thiensu99/crack-soga/main/install.sh)
+
+apt-get install -y ntp
+systemctl enable ntp 
+systemctl restart ntp
 ```
 ## Cấu hình soga
 ```   
